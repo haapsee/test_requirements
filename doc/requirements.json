@@ -1,179 +1,177 @@
-{
-  "requirements": [
-    {
-      "clarifications": [
-        "What is the expected URL for accessing this \"Hello, World!\" page?",
-        "Are there any specific styling or branding requirements for the HTML page beyond plain text?",
-        "What web server technology (e.g., Apache, Nginx, Node.js, Python SimpleHTTPServer) is preferred, if any?",
-        "Should the 'Hello, World!' message be a static file or dynamically generated?"
-      ],
-      "create_date": "2025-08-18T19:34:15.831951Z",
-      "definition_of_done": [
-        "The text \"Hello, World!\" is visibly displayed in a standard web browser (e.g., Chrome, Firefox, Edge).",
-        "The content is delivered as valid HTML.",
-        "The page loads without any console errors or HTTP error codes (e.g., 404, 500)."
-      ],
-      "description": "The system shall display the text \"Hello, World!\" as a basic HTML page when accessed via a web browser.",
-      "id": "R1",
-      "stories": [
-        {
-          "create_date": "2025-08-18T19:34:15.831951Z",
-          "description": "As a user, I want to see a \"Hello, World!\" message displayed in my web browser when I visit the application's root URL so that I can confirm the basic web server functionality is working.",
-          "id": "S1",
-          "tasks": [
-            {
-              "create_date": "2025-08-18T19:34:15.831951Z",
-              "description": "Set up a minimal web server environment capable of serving static HTML files.",
-              "id": "T1",
-              "subtasks": [
-                {
-                  "create_date": "2025-08-18T19:34:15.831951Z",
-                  "description": "Implement the necessary configuration or code to start a basic web server.",
-                  "id": "T1.1",
-                  "update_date": "2025-08-18T19:34:15.831951Z"
-                },
-                {
-                  "create_date": "2025-08-18T19:34:15.831951Z",
-                  "description": "Document the steps and dependencies required to set up and run the web server.",
-                  "id": "T1.2",
-                  "update_date": "2025-08-18T19:34:15.831951Z"
-                }
-              ],
-              "update_date": "2025-08-18T19:34:15.831951Z"
-            },
-            {
-              "create_date": "2025-08-18T19:34:15.831951Z",
-              "description": "Create an HTML file named 'index.html' containing the \"Hello, World!\" message.",
-              "id": "T2",
-              "subtasks": [
-                {
-                  "create_date": "2025-08-18T19:34:15.831951Z",
-                  "description": "Implement the HTML structure with a body containing the text \"Hello, World!\".",
-                  "id": "T2.1",
-                  "update_date": "2025-08-18T19:34:15.831951Z"
-                },
-                {
-                  "create_date": "2025-08-18T19:34:15.831951Z",
-                  "description": "Document the content and expected location of the 'index.html' file within the project structure.",
-                  "id": "T2.2",
-                  "update_date": "2025-08-18T19:34:15.831951Z"
-                }
-              ],
-              "update_date": "2025-08-18T19:34:15.831951Z"
-            },
-            {
-              "create_date": "2025-08-18T19:34:15.831951Z",
-              "description": "Configure the web server to serve the 'index.html' file as the default page for the root URL.",
-              "id": "T3",
-              "subtasks": [
-                {
-                  "create_date": "2025-08-18T19:34:15.831951Z",
-                  "description": "Implement the server configuration to map the root URL to 'index.html'.",
-                  "id": "T3.1",
-                  "update_date": "2025-08-18T19:34:15.831951Z"
-                },
-                {
-                  "create_date": "2025-08-18T19:34:15.831951Z",
-                  "description": "Document the web server configuration changes or code required to serve the HTML file correctly.",
-                  "id": "T3.2",
-                  "update_date": "2025-08-18T19:34:15.831951Z"
-                }
-              ],
-              "update_date": "2025-08-18T19:34:15.831951Z"
-            }
-          ],
-          "update_date": "2025-08-18T19:34:15.831951Z"
-        }
-      ],
-      "type": "Functional",
-      "update_date": "2025-08-18T19:34:15.831951Z"
-    },
-    {
-      "clarifications": [
-        "What are the exact hexadecimal color codes (or RGB values) for \"blueish dark gray\" and \"light blueish gray\"?",
-        "How should these styles be applied (e.g., inline CSS, internal CSS block in <head>, external CSS file)?",
-        "Are there any specific fonts or font sizes to consider in addition to colors?"
-      ],
-      "create_date": "2025-08-18T19:39:30.101624Z",
-      "definition_of_done": [
-        "The \"Hello, World!\" text is rendered with the specified \"blueish dark gray\" color.",
-        "The background of the HTML page is rendered with the specified \"light blueish gray\" color.",
-        "The applied styles are consistent across modern web browsers (e.g., Chrome, Firefox, Edge)."
-      ],
-      "description": "The system shall apply specific styling to the \"Hello, World!\" page, including a \"blueish dark gray\" text color and a \"light blueish gray\" background color.",
-      "id": "R2",
-      "stories": [
-        {
-          "create_date": "2025-08-18T19:39:30.101624Z",
-          "description": "As a user, I want the 'Hello, World!' text to be 'blueish dark gray' and the page background to be 'light blueish gray' so that the application meets the specified visual design requirements.",
-          "id": "S2",
-          "tasks": [
-            {
-              "create_date": "2025-08-18T19:39:30.101624Z",
-              "description": "Define and apply the text color for the 'Hello, World!' message.",
-              "id": "T4",
-              "subtasks": [
-                {
-                  "create_date": "2025-08-18T19:39:30.101624Z",
-                  "description": "Implement the CSS rule to set the color of the 'Hello, World!' text to 'blueish dark gray'.",
-                  "id": "T4.1",
-                  "update_date": "2025-08-18T19:39:30.101624Z"
-                },
-                {
-                  "create_date": "2025-08-18T19:39:30.101624Z",
-                  "description": "Document the specific color code used for the text and where the CSS rule is applied.",
-                  "id": "T4.2",
-                  "update_date": "2025-08-18T19:39:30.101624Z"
-                }
-              ],
-              "update_date": "2025-08-18T19:39:30.101624Z"
-            },
-            {
-              "create_date": "2025-08-18T19:39:30.101624Z",
-              "description": "Define and apply the background color for the HTML page.",
-              "id": "T5",
-              "subtasks": [
-                {
-                  "create_date": "2025-08-18T19:39:30.101624Z",
-                  "description": "Implement the CSS rule to set the background color of the HTML body or relevant container to 'light blueish gray'.",
-                  "id": "T5.1",
-                  "update_date": "2025-08-18T19:39:30.101624Z"
-                },
-                {
-                  "create_date": "2025-08-18T19:39:30.101624Z",
-                  "description": "Document the specific color code used for the background and where the CSS rule is applied.",
-                  "id": "T5.2",
-                  "update_date": "2025-08-18T19:39:30.101624Z"
-                }
-              ],
-              "update_date": "2025-08-18T19:39:30.101624Z"
-            },
-            {
-              "create_date": "2025-08-18T19:39:30.101624Z",
-              "description": "Integrate the new styling rules into the 'index.html' file.",
-              "id": "T6",
-              "subtasks": [
-                {
-                  "create_date": "2025-08-18T19:39:30.101624Z",
-                  "description": "Implement the chosen method for integrating CSS (e.g., adding a <style> block to the HTML <head> or creating/linking an external CSS file).",
-                  "id": "T6.1",
-                  "update_date": "2025-08-18T19:39:30.101624Z"
-                },
-                {
-                  "create_date": "2025-08-18T19:39:30.101624Z",
-                  "description": "Document the integration method used for the CSS and any new files or file structure changes.",
-                  "id": "T6.2",
-                  "update_date": "2025-08-18T19:39:30.101624Z"
-                }
-              ],
-              "update_date": "2025-08-18T19:39:30.101624Z"
-            }
-          ],
-          "update_date": "2025-08-18T19:39:30.101624Z"
-        }
-      ],
-      "type": "Non-Functional",
-      "update_date": "2025-08-18T19:39:30.101624Z"
-    }
-  ]
-}
+[
+  {
+    "clarifications": [
+      "What is the expected URL for accessing this \"Hello, World!\" page?",
+      "Are there any specific styling or branding requirements for the HTML page beyond plain text?",
+      "What web server technology (e.g., Apache, Nginx, Node.js, Python SimpleHTTPServer) is preferred, if any?",
+      "Should the 'Hello, World!' message be a static file or dynamically generated?"
+    ],
+    "create_date": "2025-08-18T19:34:15.831951Z",
+    "definition_of_done": [
+      "The text \"Hello, World!\" is visibly displayed in a standard web browser (e.g., Chrome, Firefox, Edge).",
+      "The content is delivered as valid HTML.",
+      "The page loads without any console errors or HTTP error codes (e.g., 404, 500)."
+    ],
+    "description": "The system shall display the text \"Hello, World!\" as a basic HTML page when accessed via a web browser.",
+    "id": "R1",
+    "stories": [
+      {
+        "create_date": "2025-08-18T19:34:15.831951Z",
+        "description": "As a user, I want to see a \"Hello, World!\" message displayed in my web browser when I visit the application's root URL so that I can confirm the basic web server functionality is working.",
+        "id": "S1",
+        "tasks": [
+          {
+            "create_date": "2025-08-18T19:34:15.831951Z",
+            "description": "Set up a minimal web server environment capable of serving static HTML files.",
+            "id": "T1",
+            "subtasks": [
+              {
+                "create_date": "2025-08-18T19:34:15.831951Z",
+                "description": "Implement the necessary configuration or code to start a basic web server.",
+                "id": "T1.1",
+                "update_date": "2025-08-18T19:34:15.831951Z"
+              },
+              {
+                "create_date": "2025-08-18T19:34:15.831951Z",
+                "description": "Document the steps and dependencies required to set up and run the web server.",
+                "id": "T1.2",
+                "update_date": "2025-08-18T19:34:15.831951Z"
+              }
+            ],
+            "update_date": "2025-08-18T19:34:15.831951Z"
+          },
+          {
+            "create_date": "2025-08-18T19:34:15.831951Z",
+            "description": "Create an HTML file named 'index.html' containing the \"Hello, World!\" message.",
+            "id": "T2",
+            "subtasks": [
+              {
+                "create_date": "2025-08-18T19:34:15.831951Z",
+                "description": "Implement the HTML structure with a body containing the text \"Hello, World!\".",
+                "id": "T2.1",
+                "update_date": "2025-08-18T19:34:15.831951Z"
+              },
+              {
+                "create_date": "2025-08-18T19:34:15.831951Z",
+                "description": "Document the content and expected location of the 'index.html' file within the project structure.",
+                "id": "T2.2",
+                "update_date": "2025-08-18T19:34:15.831951Z"
+              }
+            ],
+            "update_date": "2025-08-18T19:34:15.831951Z"
+          },
+          {
+            "create_date": "2025-08-18T19:34:15.831951Z",
+            "description": "Configure the web server to serve the 'index.html' file as the default page for the root URL.",
+            "id": "T3",
+            "subtasks": [
+              {
+                "create_date": "2025-08-18T19:34:15.831951Z",
+                "description": "Implement the server configuration to map the root URL to 'index.html'.",
+                "id": "T3.1",
+                "update_date": "2025-08-18T19:34:15.831951Z"
+              },
+              {
+                "create_date": "2025-08-18T19:34:15.831951Z",
+                "description": "Document the web server configuration changes or code required to serve the HTML file correctly.",
+                "id": "T3.2",
+                "update_date": "2025-08-18T19:34:15.831951Z"
+              }
+            ],
+            "update_date": "2025-08-18T19:34:15.831951Z"
+          }
+        ],
+        "update_date": "2025-08-18T19:34:15.831951Z"
+      }
+    ],
+    "type": "Functional",
+    "update_date": "2025-08-18T19:34:15.831951Z"
+  },
+  {
+    "clarifications": [
+      "What are the exact hexadecimal color codes (or RGB values) for \"blueish dark gray\" and \"light blueish gray\"?",
+      "How should these styles be applied (e.g., inline CSS, internal CSS block in <head>, external CSS file)?",
+      "Are there any specific fonts or font sizes to consider in addition to colors?"
+    ],
+    "create_date": "2025-08-18T19:39:30.101624Z",
+    "definition_of_done": [
+      "The \"Hello, World!\" text is rendered with the specified \"blueish dark gray\" color.",
+      "The background of the HTML page is rendered with the specified \"light blueish gray\" color.",
+      "The applied styles are consistent across modern web browsers (e.g., Chrome, Firefox, Edge)."
+    ],
+    "description": "The system shall apply specific styling to the \"Hello, World!\" page, including a \"blueish dark gray\" text color and a \"light blueish gray\" background color.",
+    "id": "R2",
+    "stories": [
+      {
+        "create_date": "2025-08-18T19:39:30.101624Z",
+        "description": "As a user, I want the 'Hello, World!' text to be 'blueish dark gray' and the page background to be 'light blueish gray' so that the application meets the specified visual design requirements.",
+        "id": "S2",
+        "tasks": [
+          {
+            "create_date": "2025-08-18T19:39:30.101624Z",
+            "description": "Define and apply the text color for the 'Hello, World!' message.",
+            "id": "T4",
+            "subtasks": [
+              {
+                "create_date": "2025-08-18T19:39:30.101624Z",
+                "description": "Implement the CSS rule to set the color of the 'Hello, World!' text to 'blueish dark gray'.",
+                "id": "T4.1",
+                "update_date": "2025-08-18T19:39:30.101624Z"
+              },
+              {
+                "create_date": "2025-08-18T19:39:30.101624Z",
+                "description": "Document the specific color code used for the text and where the CSS rule is applied.",
+                "id": "T4.2",
+                "update_date": "2025-08-18T19:39:30.101624Z"
+              }
+            ],
+            "update_date": "2025-08-18T19:39:30.101624Z"
+          },
+          {
+            "create_date": "2025-08-18T19:39:30.101624Z",
+            "description": "Define and apply the background color for the HTML page.",
+            "id": "T5",
+            "subtasks": [
+              {
+                "create_date": "2025-08-18T19:39:30.101624Z",
+                "description": "Implement the CSS rule to set the background color of the HTML body or relevant container to 'light blueish gray'.",
+                "id": "T5.1",
+                "update_date": "2025-08-18T19:39:30.101624Z"
+              },
+              {
+                "create_date": "2025-08-18T19:39:30.101624Z",
+                "description": "Document the specific color code used for the background and where the CSS rule is applied.",
+                "id": "T5.2",
+                "update_date": "2025-08-18T19:39:30.101624Z"
+              }
+            ],
+            "update_date": "2025-08-18T19:39:30.101624Z"
+          },
+          {
+            "create_date": "2025-08-18T19:39:30.101624Z",
+            "description": "Integrate the new styling rules into the 'index.html' file.",
+            "id": "T6",
+            "subtasks": [
+              {
+                "create_date": "2025-08-18T19:39:30.101624Z",
+                "description": "Implement the chosen method for integrating CSS (e.g., adding a <style> block to the HTML <head> or creating/linking an external CSS file).",
+                "id": "T6.1",
+                "update_date": "2025-08-18T19:39:30.101624Z"
+              },
+              {
+                "create_date": "2025-08-18T19:39:30.101624Z",
+                "description": "Document the integration method used for the CSS and any new files or file structure changes.",
+                "id": "T6.2",
+                "update_date": "2025-08-18T19:39:30.101624Z"
+              }
+            ],
+            "update_date": "2025-08-18T19:39:30.101624Z"
+          }
+        ],
+        "update_date": "2025-08-18T19:39:30.101624Z"
+      }
+    ],
+    "type": "Non-Functional",
+    "update_date": "2025-08-18T19:39:30.101624Z"
+  }
+]
