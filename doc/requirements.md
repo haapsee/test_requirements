@@ -45,3 +45,26 @@ _Created: 2025-08-18T19:39:30.101624Z, Updated: 2025-08-18T19:39:30.101624Z_
 - **T6:** Integrate the new styling rules into the 'index.html' file. (_Updated: 2025-08-18T19:39:30.101624Z_)
   - **T6.1:** Implement the chosen method for integrating CSS (e.g., adding a <style> block to the HTML <head> or creating/linking an external CSS file).
   - **T6.2:** Document the integration method used for the CSS and any new files or file structure changes.
+
+## R3: The system shall apply a blur effect to a designated element on the "Hello, World!" page. (Functional)
+_Created: 2025-08-18T19:45:00.000000Z, Updated: 2025-08-18T19:45:00.000000Z_
+
+### Definition of Done
+- The specified element on the web page appears visibly blurred in a standard web browser (e.g., Chrome, Firefox, Edge).
+- The blur effect is applied using standard CSS properties (e.g., `filter: blur()`).
+- The blur effect is consistent across common modern web browsers and does not significantly impact page load time or rendering performance.
+
+### Stories
+#### S3: As a user, I want a specific element on the 'Hello, World!' page to display with a blur effect so that the page incorporates the desired visual enhancement.
+_Created: 2025-08-18T19:45:00.000000Z, Updated: 2025-08-18T19:45:00.000000Z_
+
+##### Tasks
+- **T7:** Identify the target element for the blur effect and determine the appropriate CSS property. (_Updated: 2025-08-18T19:45:00.000000Z_)
+  - **T7.1:** Implement a small proof-of-concept demonstrating `filter: blur()` or an alternative CSS property on a test element.
+  - **T7.2:** Document the chosen CSS property (`filter: blur()`) and its general browser compatibility.
+- **T8:** Apply the blur effect to the designated element on the 'Hello, World!' page. (_Updated: 2025-08-18T19:45:00.000000Z_)
+  - **T8.1:** Implement the CSS rule to apply the `filter: blur()` to the chosen element (e.g., the element containing 'Hello, World!' text).
+  - **T8.2:** Document the CSS selector used for the target element and the specific blur intensity value applied.
+- **T9:** Verify the blur effect's rendering and performance across target web browsers. (_Updated: 2025-08-18T19:45:00.000000Z_)
+  - **T9.1:** Conduct cross-browser testing to ensure the blur effect renders consistently and doesn't cause performance issues.
+  - **T9.2:** Document the results of browser compatibility testing, noting any discrepancies or necessary workarounds.
