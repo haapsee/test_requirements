@@ -24,7 +24,7 @@ _Created: 2025-08-18T19:34:15.831951Z, Updated: 2025-08-18T19:34:15.831951Z_
   - **T3.2:** Document the web server configuration changes or code required to serve the HTML file correctly.
 
 ## R2: The system shall apply specific styling to the "Hello, World!" page, including a "blueish dark gray" text color and a "light blueish gray" background color. (Non-Functional)
-_Created: 2025-08-18T19:39:30.101624Z, Updated: 2025-08-18T19:39:30.101624Z_
+_Created: 2025-08-18T19:39:30.101624Z, Updated: 2025-08-18T19:56:54.265942Z_
 
 ### Definition of Done
 - The "Hello, World!" text is rendered with the specified "blueish dark gray" color.
@@ -36,12 +36,12 @@ _Created: 2025-08-18T19:39:30.101624Z, Updated: 2025-08-18T19:39:30.101624Z_
 _Created: 2025-08-18T19:39:30.101624Z, Updated: 2025-08-18T19:39:30.101624Z_
 
 ##### Tasks
-- **T4:** Define and apply the text color for the 'Hello, World!' message. (_Updated: 2025-08-18T19:39:30.101624Z_)
+- **T4:** Define and apply the text color for the 'Hello, World!' message. (_Updated: 2025-08-18T19:56:54.265942Z_)
   - **T4.1:** Implement the CSS rule to set the color of the 'Hello, World!' text to 'blueish dark gray'.
   - **T4.2:** Document the specific color code used for the text and where the CSS rule is applied.
-- **T5:** Define and apply the background color for the HTML page. (_Updated: 2025-08-18T19:39:30.101624Z_)
+- **T5:** Define and apply the background color for the HTML page. (_Updated: 2025-08-18T19:56:54.265942Z_)
   - **T5.1:** Implement the CSS rule to set the background color of the HTML body or relevant container to 'light blueish gray'.
   - **T5.2:** Document the specific color code used for the background and where the CSS rule is applied.
-- **T6:** Integrate the new styling rules into the 'index.html' file. (_Updated: 2025-08-18T19:39:30.101624Z_)
+- **T6:** Integrate the new styling rules into the 'index.html' file. (_Updated: 2025-08-18T19:56:54.265942Z_)
   - **T6.1:** Implement the chosen method for integrating CSS (e.g., adding a <style> block to the HTML <head> or creating/linking an external CSS file).
   - **T6.2:** Document the integration method used for the CSS and any new files or file structure changes.
